@@ -12,7 +12,7 @@ MODEL_SAVE_NAME = "resnet50"
 
 # Paths
 CURR_DIR = os.path.dirname(os.path.abspath(__file__))
-WEIGHT_DIR = os.path.join(CURR_DIR, "weights")
+WEIGHT_DIR = os.path.join("models/", "weights")
 CONFIG_DIR = os.path.join(CURR_DIR, "configs")
 MODEL_PATH = os.path.join(WEIGHT_DIR, "RN50.pt")
 

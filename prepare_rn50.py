@@ -2,7 +2,8 @@ import os
 import json
 import urllib.request
 import torch
-from torch import nn, Tensor, Union
+from torch import nn, Tensor
+from typing import Union
 from tqdm import tqdm
 from models.clip.CLIP import build_model
 # RN50 Model URL (CLIP)
